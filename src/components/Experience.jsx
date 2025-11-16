@@ -24,10 +24,49 @@ const Experience = () => {
     {
       id: 1,
       type: "internship",
+      title: "Web Development Intern",
+      company: "NexaBridge",
+      location: "Virtual",
+      period: "Oct 2025 - Present",
+      description:
+        "Building modern web applications using cutting-edge technologies, focusing on creating scalable and performant solutions for diverse client requirements.",
+      longDescription:
+        "At NexaBridge, I'm contributing to the development of enterprise-level web applications with a focus on modern JavaScript frameworks and cloud technologies. Working in a fully remote environment has enhanced my communication and collaboration skills while delivering high-quality code. I'm involved in the complete development lifecycle from planning to deployment, working closely with designers and backend developers to create seamless user experiences.",
+      responsibilities: [
+        "Developing responsive and interactive web applications using React.js and Next.js",
+        "Implementing modern UI/UX designs with Tailwind CSS and custom animations",
+        "Building RESTful APIs and integrating third-party services",
+        "Writing clean, maintainable code following industry best practices",
+        "Collaborating with remote teams across different time zones",
+        "Participating in agile development processes and daily standups",
+        "Conducting code reviews and providing constructive feedback to peers",
+        "Optimizing web applications for maximum speed and scalability",
+      ],
+      technologies: [
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "MongoDB",
+        "Git",
+        "REST APIs",
+      ],
+      achievements: [
+        "Successfully delivered multiple client projects on time",
+        "Implemented performance optimizations improving load times by 40%",
+        "Contributed to team's best practices documentation",
+      ],
+      icon: Briefcase,
+      color: "from-blue-500 to-cyan-500",
+    },
+    {
+      id: 2,
+      type: "internship",
       title: "Software Development Intern",
       company: "Clinix Sphere",
       location: "Remote",
-      period: "April 2025 - Present",
+      period: "April 2025 - Oct 2025",
       description:
         "Developed and maintained web applications using React.js and Node.js, collaborated with cross-functional teams to deliver high-quality software solutions.",
       longDescription:
@@ -60,7 +99,7 @@ const Experience = () => {
       color: "from-blue-500 to-cyan-500",
     },
     {
-      id: 2,
+      id: 3,
       type: "education",
       title: "Bachelor of Engineering - Information Technology",
       company: "Sinhgad College of Engineering (SCOE)",
@@ -97,7 +136,7 @@ const Experience = () => {
       color: "from-purple-500 to-pink-500",
     },
     {
-      id: 3,
+      id: 4,
       type: "leadership",
       title: "Team Leader & Active Member",
       company: "E-Cell SCOE",
