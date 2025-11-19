@@ -12,19 +12,19 @@ const About = () => {
     {
       icon: Code,
       label: "Projects Completed",
-      value: "30+",
+      value: "35+",
       color: "text-blue-500",
     },
     {
       icon: Coffee,
-      label: "Tea Cups",
-      value: "500+",
+      label: "DSA Problems",
+      value: "300+",
       color: "text-amber-500",
     },
     {
       icon: Users,
       label: "Contributions",
-      value: "150+",
+      value: "200+",
       color: "text-green-500",
     },
     {
