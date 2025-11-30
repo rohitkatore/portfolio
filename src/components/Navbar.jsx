@@ -21,11 +21,19 @@ const Navbar = () => {
   ];
 
   const scrollToSection = (href) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-    setIsOpen(false);
+    setIsOpen(false); // Close menu first
+    // Small delay to allow menu animation to complete
+    setTimeout(() => {
+      const element = document.querySelector(href);
+      if (element) {
+        const navbarHeight = 64; // Height of the navbar
+        const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+          top: elementPosition - navbarHeight,
+          behavior: "smooth"
+        });
+      }
+    }, 100);
   };
 
   return (
@@ -127,24 +135,21 @@ const Navbar = () => {
           >
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item, index) => (
-                <motion.a
+                <motion.button
                   key={item.name}
-                  href={item.href}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection(item.href);
-                  }}
+                  type="button"
+                  onClick={() => scrollToSection(item.href)}
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.1 }}
-                  className={`block px-3 py-2 text-base font-medium transition-all duration-300 rounded-md ${
+                  className={`block w-full text-left px-3 py-3 text-base font-medium transition-all duration-300 rounded-md cursor-pointer ${
                     activeSection === item.href.slice(1)
                       ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20"
                       : "text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800"
                   }`}
                 >
                   {item.name}
-                </motion.a>
+                </motion.button>
               ))}
             </div>
           </motion.div>

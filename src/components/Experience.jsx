@@ -24,6 +24,44 @@ const Experience = () => {
     {
       id: 1,
       type: "internship",
+      title: "Full Stack Development Intern",
+      company: "ReliablyME Inc.",
+      location: "Toronto, Canada (Remote)",
+      period: "Nov 2025 - Present",
+      description:
+        "Building reliable, human-centered technology at a Toronto-based social enterprise, developing AI-enhanced accountability platforms that turn everyday commitments into measurable actions.",
+      longDescription:
+        "At ReliablyME Inc., I'm contributing to the development of an innovative AI-enhanced accountability platform that helps people and teams make commitments visible, measurable, and trustworthy. Working with a mission-driven team, I'm involved in building production-grade web applications that integrate with communication channels like Slack and WhatsApp, turning ordinary messages into actionable commitments that can be tracked and nudged using AI and behavioral design principles.",
+      responsibilities: [
+        "Collaborating with the team to design, develop, and deploy production-grade web applications",
+        "Implementing and refining front-end and back-end features that improve reliability and user experience",
+        "Building and integrating REST APIs to support Slack and WhatsApp chatbot functionality",
+        "Optimizing data flow and storage with MongoDB",
+        "Writing clean, modular, and well-documented code; participating in peer reviews",
+        "Troubleshooting, debugging, and enhancing system stability",
+        "Applying best practices in full-stack development and behavioral product design",
+      ],
+      technologies: [
+        "React (Vite)",
+        "Node.js",
+        "TypeScript",
+        "Python",
+        "MongoDB",
+        "Material UI",
+        "REST APIs",
+        "Git",
+      ],
+      achievements: [
+        "Contributing to multi-channel chatbot development for Slack and WhatsApp integration",
+        "Working on AI-driven Nudge Scheduling Assistant features",
+        "Building commitment tracking plugins with modern tech stack",
+      ],
+      icon: Briefcase,
+      color: "from-emerald-500 to-teal-500",
+    },
+    {
+      id: 2,
+      type: "internship",
       title: "Web Development Intern",
       company: "NexaBridge",
       location: "Virtual",
@@ -61,7 +99,7 @@ const Experience = () => {
       color: "from-blue-500 to-cyan-500",
     },
     {
-      id: 2,
+      id: 3,
       type: "internship",
       title: "Software Development Intern",
       company: "Clinix Sphere",
@@ -99,7 +137,7 @@ const Experience = () => {
       color: "from-blue-500 to-cyan-500",
     },
     {
-      id: 3,
+      id: 4,
       type: "education",
       title: "Bachelor of Engineering - Information Technology",
       company: "Sinhgad College of Engineering (SCOE)",
@@ -136,7 +174,7 @@ const Experience = () => {
       color: "from-purple-500 to-pink-500",
     },
     {
-      id: 4,
+      id: 5,
       type: "leadership",
       title: "Team Leader & Active Member",
       company: "E-Cell SCOE",
