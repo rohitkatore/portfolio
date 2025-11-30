@@ -10,6 +10,7 @@ import blogvioImg from "../assets/project_image/blogvio_img.png"
 import prepwiseImg from "../assets/project_image/prepwise_img.png"
 import wanderlustImg from "../assets/project_image/wanderlust_img.png"
 import digipeImg from "../assets/project_image/digipe_img.png"
+import intellioImg from "../assets/project_image/intellio_img.png"
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -281,32 +282,35 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: "Currency Converter",
-      category: "Frontend",
+      title: "Intellio",
+      category: "Full Stack",
       description:
-        "A real-time currency converter with historical data and exchange rate trends.",
+        "An AI-powered chat assistant platform with text conversations, image generation, and persistent chat history.",
       longDescription:
-        "Developed a sleek currency converter application that provides real-time exchange rates, historical data visualization, and trend analysis. The app features a clean interface with support for multiple currencies, offline mode, and customizable widgets. Built with React.js and integrated with reliable financial APIs for accurate data.",
-      image: "/api/placeholder/600/400",
+        "Intellio is a sophisticated AI assistant built with Next.js, TypeScript, and tRPC, featuring seamless integration with Google Gemini AI. The platform offers intelligent text conversations, AI-powered image generation using the /image command, and secure user authentication via Auth0. Users can enjoy persistent chat history saved across sessions using Supabase, providing a continuous and personalized AI experience. The modern UI is built with a dark theme and responsive design for optimal user experience.",
+      image: intellioImg,
       video: "/api/placeholder/600/400",
       technologies: [
-        "React.js",
-        "Chart.js",
+        "Next.js",
+        "TypeScript",
+        "tRPC",
+        "Google Gemini AI",
+        "Auth0",
+        "Supabase",
         "Tailwind CSS",
-        "REST APIs",
-        "LocalStorage",
-        "PWA",
+        "React",
       ],
-      github: "https://github.com/rohitkatore/currency-converter",
-      demo: "https://currency-converter-demo.com",
+      github: "https://github.com/rohitkatore/intellio",
+      demo: "https://intellioplus.vercel.app",
       features: [
-        "Real-time exchange rates",
-        "Historical data visualization",
-        "Multi-currency support",
-        "Offline mode functionality",
-        "Customizable widgets",
-        "Responsive design",
-        "Progressive Web App features",
+        "AI-powered text conversations with Gemini",
+        "Image generation with /image command",
+        "Secure user authentication via Auth0",
+        "Persistent chat history across sessions",
+        "Modern dark theme UI",
+        "Real-time message streaming",
+        "Responsive design for all devices",
+        "Type-safe API with tRPC",
       ],
     },
   ];
