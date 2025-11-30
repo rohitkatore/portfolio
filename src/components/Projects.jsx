@@ -6,11 +6,11 @@ import taskifyImg from "../assets/project_image/taskify_img.png";
 import tomatoImg from "../assets/project_image/tomato_img.png";
 import rydoImg from "../assets/project_image/rydo_img.png";
 import entrepreneurEdgeImg from "../assets/project_image/entrepreneurEdge_img.png";
-import blogvioImg from "../assets/project_image/blogvio_img.png"
-import prepwiseImg from "../assets/project_image/prepwise_img.png"
-import wanderlustImg from "../assets/project_image/wanderlust_img.png"
-import digipeImg from "../assets/project_image/digipe_img.png"
-import intellioImg from "../assets/project_image/intellio_img.png"
+import blogvioImg from "../assets/project_image/blogvio_img.png";
+import prepwiseImg from "../assets/project_image/prepwise_img.png";
+import wanderlustImg from "../assets/project_image/wanderlust_img.png";
+import digipeImg from "../assets/project_image/digipe_img.png";
+import intellioImg from "../assets/project_image/intellio_img.png";
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -55,35 +55,35 @@ const Projects = () => {
       ],
     },
     {
-  id: 2,
-  title: "PrepWise",
-  category: "Full Stack",
-  description:
-    "An AI-powered interview preparation platform with voice-based mock interviews, instant feedback, and progress tracking.",
-  longDescription:
-    "PrepWise is a modern web application built with Next.js, TypeScript, and Firebase. It enables users to practice technical and behavioral interviews through realistic AI-driven voice simulations. The platform generates custom interviews based on role and tech stack, provides automated feedback with scoring and actionable insights, and features a dashboard for tracking interview history and performance. The UI is responsive and visually appealing, leveraging TailwindCSS and Vapi.ai for seamless user experience.",
-  image: prepwiseImg,
-  video: "/api/placeholder/600/400",
-  technologies: [
-    "Next.js",
-    "TypeScript",
-    "Firebase",
-    "TailwindCSS",
-    "Vapi.ai",
-    "Google Gemini AI"
-  ],
-  github: "https://github.com/rohitkatore/interview_prep",
-  demo: "https://prepwise.vercel.app", 
-  features: [
-    "AI voice-based mock interviews",
-    "Custom interview generation by role and tech stack",
-    "Automated feedback with scoring and insights",
-    "Dashboard for interview history and progress",
-    "Technical and behavioral interview options",
-    "Modern, responsive UI",
-    "User authentication and secure data storage"
-  ]
-},
+      id: 2,
+      title: "PrepWise",
+      category: "Full Stack",
+      description:
+        "An AI-powered interview preparation platform with voice-based mock interviews, instant feedback, and progress tracking.",
+      longDescription:
+        "PrepWise is a modern web application built with Next.js, TypeScript, and Firebase. It enables users to practice technical and behavioral interviews through realistic AI-driven voice simulations. The platform generates custom interviews based on role and tech stack, provides automated feedback with scoring and actionable insights, and features a dashboard for tracking interview history and performance. The UI is responsive and visually appealing, leveraging TailwindCSS and Vapi.ai for seamless user experience.",
+      image: prepwiseImg,
+      video: "/api/placeholder/600/400",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Firebase",
+        "TailwindCSS",
+        "Vapi.ai",
+        "Google Gemini AI",
+      ],
+      github: "https://github.com/rohitkatore/interview_prep",
+      demo: "https://prepwise.vercel.app",
+      features: [
+        "AI voice-based mock interviews",
+        "Custom interview generation by role and tech stack",
+        "Automated feedback with scoring and insights",
+        "Dashboard for interview history and progress",
+        "Technical and behavioral interview options",
+        "Modern, responsive UI",
+        "User authentication and secure data storage",
+      ],
+    },
     {
       id: 2,
       title: "FoodZone",
@@ -149,41 +149,41 @@ const Projects = () => {
       ],
     },
     {
-  id: 1,
-  title: "DigiPe Wallet",
-  category: "Full Stack",
-  description:
-    "A modern digital wallet platform for seamless money transfers, balance management, and transaction tracking.",
-  longDescription:
-    "DigiPe is a scalable digital wallet solution built for fast, secure, and user-friendly money management. Users can transfer funds, add money via supported banks, view transaction history, and manage their balance with real-time updates. The platform supports authentication, role-based access, and integrates with banking APIs for on-ramp transactions. Built with a monorepo architecture for maintainability and rapid development.",
-  image: digipeImg,
-  video: "/api/placeholder/600/400",
-  technologies: [
-    "Next.js",
-    "React.js",
-    "TypeScript",
-    "Prisma",
-    "PostgreSQL",
-    "Tailwind CSS",
-    "NextAuth.js",
-    "Recoil",
-    "Express.js",
-    "Node.js",
-    "ESBuild"
-  ],
-  github: "https://github.com/rohitkatore/digipe-wallet",
-  demo: "https://digipe-demo.com",
-  features: [
-    "User authentication and session management",
-    "P2P money transfer with balance checks",
-    "Add money via bank integration",
-    "Transaction history and analytics",
-    "Role-based access for merchants and users",
-    "Responsive UI with modern design",
-    "Monorepo structure for scalable development",
-    "API integration for webhook and banking events"
-  ]
-},
+      id: 1,
+      title: "DigiPe Wallet",
+      category: "Full Stack",
+      description:
+        "A modern digital wallet platform for seamless money transfers, balance management, and transaction tracking.",
+      longDescription:
+        "DigiPe is a scalable digital wallet solution built for fast, secure, and user-friendly money management. Users can transfer funds, add money via supported banks, view transaction history, and manage their balance with real-time updates. The platform supports authentication, role-based access, and integrates with banking APIs for on-ramp transactions. Built with a monorepo architecture for maintainability and rapid development.",
+      image: digipeImg,
+      video: "/api/placeholder/600/400",
+      technologies: [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "NextAuth.js",
+        "Recoil",
+        "Express.js",
+        "Node.js",
+        "ESBuild",
+      ],
+      github: "https://github.com/rohitkatore/digipe-wallet",
+      demo: "https://digipe-demo.com",
+      features: [
+        "User authentication and session management",
+        "P2P money transfer with balance checks",
+        "Add money via bank integration",
+        "Transaction history and analytics",
+        "Role-based access for merchants and users",
+        "Responsive UI with modern design",
+        "Monorepo structure for scalable development",
+        "API integration for webhook and banking events",
+      ],
+    },
     {
       id: 4,
       title: "EntrepreneurEdge",

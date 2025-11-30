@@ -27,10 +27,11 @@ const Navbar = () => {
       const element = document.querySelector(href);
       if (element) {
         const navbarHeight = 64; // Height of the navbar
-        const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+        const elementPosition =
+          element.getBoundingClientRect().top + window.scrollY;
         window.scrollTo({
           top: elementPosition - navbarHeight,
-          behavior: "smooth"
+          behavior: "smooth",
         });
       }
     }, 100);
